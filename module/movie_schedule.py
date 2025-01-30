@@ -22,7 +22,7 @@ while True:
 
     # Check if the movie exists in the schedule
     if movie in current_movies:
-        print(f"\n🎬 '{movie}' is showing at {current_movies[movie]}. Enjoy the movie!")
+        print(f"\n🎬 '{movie}' is showing at {current_movies[movie]}. Enjoy the movie!!!")
         break
     else:
         print(f"🚫 Sorry, we don't have '{movie}' in the schedule. Please choose again.")
